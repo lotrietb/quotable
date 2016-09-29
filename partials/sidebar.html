@@ -1,0 +1,46 @@
+<!-- BEGIN SIDEBAR -->
+<div class="page-sidebar-wrapper">
+	<div class="page-sidebar navbar-collapse collapse">
+		<ul class="page-sidebar-menu page-sidebar-menu-hover-submenu " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+
+			<li class="start active ">
+				<a [routerLink]="['Dashboard']">
+				<i class="icon-home"></i>
+				<span class="title">Dashboard</span>
+				<span class="selected"></span>
+				</a>
+			</li>
+
+			<li>
+				<a href="javascript:;">
+				<i class="icon-settings"></i>
+				<span class="title">My Profile</span>
+				<span class="arrow "></span>
+				</a>
+				<ul class="sub-menu">
+					<li>
+						<a [routerLink]="['Profile']">
+						Personal Information</a>
+					</li>
+					<li>
+						<a [routerLink]="['Vehicles']">
+						Manage Vehicles</a>
+					</li>
+					<li>
+						<a [routerLink]="['Homes']">
+						Manage Homes</a>
+					</li>
+				</ul>
+			</li>
+			<li class="last">
+				<a href="javascript:;">
+				<i class="icon-basket"></i>
+				<span class="title">Quotes</span>
+				<span class="arrow "></span>
+				</a>
+			</li>
+		</ul>
+		<!-- END SIDEBAR MENU -->
+	</div>
+</div>
+<!-- END SIDEBAR -->
